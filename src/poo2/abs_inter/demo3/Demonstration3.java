@@ -5,8 +5,12 @@ public class Demonstration3 {
 	public static void main(String[] args) {
 		System.out.println("***Demonstration-3.Exploring Interfaces.***\n");
 		
-		MyClass myClassOb = new MyClass();
-		myClassOb.implementMe();
+//		MyClass myClassOb = new MyClass();
+//		myClassOb.implementMe();
+		
+		MyInterface al = new MySubClass();
+		al.implementMe();
+		al.cosear();
 	}
 
 	// Vuelve a slides

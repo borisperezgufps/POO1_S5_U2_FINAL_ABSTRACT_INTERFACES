@@ -3,11 +3,13 @@ package poo2.abs_inter.demo1;
 public class Demonstration1 {
 
 	public static void main(String Args[]) {
-		System.out.println("***Demonstration-1.Abstract class example.***\n");
+		System.out.println("***Demonstration-1.Abstract "
+				+ "class example.***\n");
 		
 		// Error:Cannot instantiate from MyAbstractClass
 		// MyAbstractClass abstractOb=new MyAbstractClass();
 		
+		MyAbstractClass c = new MyConcreteClass();
 		MyConcreteClass concreteOb = new MyConcreteClass(); 
 		concreteOb.showMe();
 		concreteOb.calcular();

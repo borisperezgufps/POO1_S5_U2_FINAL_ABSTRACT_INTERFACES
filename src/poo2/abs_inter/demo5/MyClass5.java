@@ -1,6 +1,6 @@
 package poo2.abs_inter.demo5;
 
-public class MyClass5 implements MyInterface5A, MyInterface5B {
+public class MyClass5 implements MyInterface5A{
 
 	@Override
 	public void show5A() {

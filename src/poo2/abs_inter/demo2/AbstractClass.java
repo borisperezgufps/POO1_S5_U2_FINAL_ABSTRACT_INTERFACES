@@ -6,7 +6,7 @@ public abstract class AbstractClass {
 	// other types of modifiers also
 	protected int myInt = 25;
 
-	public abstract void showMe();
+	public abstract final void showMe();
 
 	public void completeMethod1() {
 		System.out.println("I am from completeMethod1 in MyAbstractClass "

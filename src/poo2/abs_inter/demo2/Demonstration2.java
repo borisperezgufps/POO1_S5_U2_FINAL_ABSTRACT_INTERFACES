@@ -3,7 +3,8 @@ package poo2.abs_inter.demo2;
 public class Demonstration2 {
 
 	public static void main(String[] args) {
-		System.out.println("***Demonstration-2.Abstract classes can have concrete "
+		System.out.println("***Demonstration-2.Abstract classes "
+				+ "can have concrete "
 				+ "methods and fields.***\n");
 
 //		AbstractClass ac = new AbstractClass();
@@ -34,3 +35,10 @@ public class Demonstration2 {
 	// abstractos, de lo contrario se tendrá que marcar como abstracta.
 
 }
+
+
+
+
+
+
+
